@@ -1,3 +1,3 @@
 import javax.swing.JFrame;
 
-public class GameFrame
+public class GameFrame extends JFrame
