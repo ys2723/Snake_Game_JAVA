@@ -11,3 +11,5 @@ public class GameFrame extends JFrame{
         and that line is:
         this.add(new GamePanel());
     */
+
+    this.add(new GamePanel());
