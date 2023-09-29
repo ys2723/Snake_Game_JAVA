@@ -23,6 +23,15 @@ import javax.swing.JPanel;
         draw(g);
     }
 
+ GamePanel(){
+        random = new Random();
+        this.setPreferredSize(new Dimension(SCREEN_WIDTH,SCREEN_HEIGHT ));
+        this.setBackground(Color.black);
+        this.setFocusable(true);
+        this.addKeyListener(new MyKeyAdapter());
+        StartGame();
+    }
+
 public class GamePanel extends JPanel implements ActionListener{
 
     static final int SCREEN_WIDTH = 600;
