@@ -1,32 +1,5 @@
 import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-import java.util.Random;
-import javax.swing.JPanel;
 
-
- GamePanel(){
- 
-        StartGame();
-    }
-
-
-    //-----------------------------------------------------------------------------------------
-    public void StartGame(){
-        newFrog();
-        running = true;
-        timer = new Timer(DELAY, this);
-        timer.start();
-    }
-
-
-    //-----------------------------------------------------------------------------------------
-    public void paintComponent(Graphics g){
-        super.paintComponent(g);
-        draw(g);
-    }
-
- GamePanel(){
         random = new Random();
         this.setPreferredSize(new Dimension(SCREEN_WIDTH,SCREEN_HEIGHT ));
         this.setBackground(Color.black);
