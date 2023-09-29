@@ -5,14 +5,7 @@ import java.util.Random;
 import javax.swing.JPanel;
 
 
-    GamePanel(){
-        random = new Random();
-        this.setPreferredSize(new Dimension(SCREEN_WIDTH,SCREEN_HEIGHT ));
-        this.setBackground(Color.black);
-        this.setFocusable(true);
-        this.addKeyListener(new MyKeyAdapter());
-        StartGame();
-    }
+
 
 
     //-----------------------------------------------------------------------------------------
